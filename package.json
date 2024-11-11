@@ -1,13 +1,17 @@
 {
-  "name": "is-leap-year",
+  "name": "leap-year-checker",
   "version": "1.0.0",
-  "description": "A sample leap year checking npm package",
+  "description": "A utility to check if a given year is a leap year",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
-  "keywords": ["typescript", "npm", "is-leap-year" , "leap-year"],
+  "keywords": [
+    "leap year",
+    "date",
+    "utility"
+  ],
   "author": "Rajiv",
   "license": "MIT",
   "repository": {
