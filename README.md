@@ -1,15 +1,15 @@
 
-# Project Title
+# leap-year-checker
 
-A brief description of what this project does and who it's for
+Returns true if the value is leap year.
 
 
 Leap Year Checker
 
 A simple JavaScript function to check if a given year is a leap year. This function includes error handling to validate the input.
 
-Installation
-
+# Installation
+```
 Install the package via npm:
 
 npm install leap-year-checker
@@ -56,6 +56,7 @@ function isLeapYear(year) {
   // Return true if it's a leap year, false otherwise
   return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
 }
+```
 Error Handling
 
 This function performs input validation as follows:

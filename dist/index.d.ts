@@ -1,1 +1,1 @@
-export declare function isLeapYear(year: number): boolean;
+export * from './utils';
