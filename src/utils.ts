@@ -1,5 +1,5 @@
 export function isLeapYear(year: number) {
-    if (typeof year !== 'number' || !Number.isInteger(year) || year <= 0) {
+    if (typeof year !== 'number' || !Number(year) || year <= 0) {
         throw new Error("Invalid input: year must be a positive integer.");
     }
 
