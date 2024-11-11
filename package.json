@@ -1,16 +1,17 @@
 {
-  "name": "leap-year",
+  "name": "is-leap-year",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A sample leap year checking npm package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@types/node": "^22.9.0",
-    "typescript": "^5.6.3"
+  "keywords": ["typescript", "npm", "is-leap-year" , "leap-year"],
+  "author": "Rajiv",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajivchaulagain/leap-year.git"
   }
 }

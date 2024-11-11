@@ -1,8 +1,8 @@
-Leap Year Checker
+# Leap Year Checker
 
 A simple JavaScript function to check if a given year is a leap year. This function includes error handling to validate the input.
 
-Function Definition
+## Function Definition
 
 The isLeapYear function checks if a year is a leap year by evaluating the input as a positive integer. If the input is not a valid year, it throws an error.
 
@@ -21,9 +21,9 @@ function isLeapYear(year) {
   // Return true if it's a leap year, false otherwise
   return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
 }
-Example Usage
+## Example Usage
 
-Below are examples of using the isLeapYear function with try-catch for error handling.
+## Below are examples of using the isLeapYear function with try-catch for error handling.
 
 try {
   console.log(isLeapYear(2024)); // Expected output: true
